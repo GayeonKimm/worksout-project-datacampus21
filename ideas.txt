@@ -1,0 +1,24 @@
+######################
+구매 데이터로 만든 recommendation model 입니다.
+모델의 아이디어만 적용하여 고객 구매 정보를 클릭(로그)으로 반드시 전환하여 사용하세요!
+
+# Collaborative filtering
+main.py에서 작동
+dataset 데이터 사용
+
+# Contents-based filtering
+Model A-item based CBF, Model B-user based CBF.py에서 작동
+dataset 데이터 사용
+
+
+scenario1. 비회원
+1. 클릭한 제품과 유사한 제품 단순 추천 (contents-based filtering model-A)
+2. hot items (단순 인기제품 나열)
+3. the same brand(단순 브랜드 제품 나열)
+4. styled with
+ 
+scenario2. 회원
+1. 고객이 클릭했던 데이터를 가지고 고객 맞춤 추천 (contents-based filtering model-B)
+2. 유저 맞춤 추천 (collaborative filtering)
+3. the same brand
+4. styled with or hot items
